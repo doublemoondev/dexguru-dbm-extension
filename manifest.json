@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "DexGuru DBM Chrome Extension",
+  "version": "1.0.0",
+  "description": "Chrome extension wrap https://dex.guru in iframe.",
+  "browser_action": {
+    "default_icon": "assets/icon.png",
+    "default_popup": "popup.html"
+  },
+  "author": "DoubleMoon",
+  "permissions": [],
+  "content_security_policy": "script-src 'self'; object-src 'self'"
+}
